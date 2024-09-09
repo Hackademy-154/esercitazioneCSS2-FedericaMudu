@@ -1,0 +1,129 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.sottoCard{
+    width: 200px;
+    height: 350px;
+    border: 1px solid black;
+    margin: 5px 5px 5px 5px;
+    border-radius: 15%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: azure;
+}
+
+.imgCard{
+    margin-top: 3px;
+    width: 150px;
+    height: 100px;
+}
+
+.homePageNavbar{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100vw;
+    display: flex;
+    justify-content:center;
+    height:4vh;
+    background:#1277a3;
+}
+
+ul{
+    margin:0;
+    padding:0;
+    display:flex;
+}
+  
+ul li{
+    list-style:none;
+    margin:0 20px;
+    transition:0.5s;
+}
+  
+ul li a{
+    display: block;
+    position:relative;
+    text-decoration:none;
+    padding:5px;
+    font-size:18px;
+    font-family: sans-serif;
+    color:#fff;
+    text-transform:uppercase;
+    transition:0.5s;
+}
+  
+ul:hover li a{
+    transform:scale(1.5);
+    opacity:0.2;
+    filter:blur(5px);
+}
+  
+ul li a:hover{
+    transform:scale(2);
+    opacity:1;
+    filter:blur(0);
+    text-decoration:none;
+    color:#fff;
+}
+  
+ul li a:before{
+    content:'';
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:#6909c2;
+    transition:0.5s;
+    transform-origin:right;
+    transform:scaleX(0);
+    z-index:-1;
+}
+  
+ul li a:hover:before{
+    transition:transform 0.5s;
+    transform-origin:left;
+    transform:scaleX(1);
+}
+body{
+    background-image: url(./abstract-realistic-technology-particle-background_23-2148433468.avif);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.cardArticle{
+    display: flex;
+}
+
+.subCardArticle{
+    background-color: rgb(238, 239, 151);
+    display: flex;
+    justify-content: center;
+}
+
+.imgArticle{
+    height: 200px;
+    width: 250px;
+}
+.caratteristiche{
+    display: flex;
+    flex-direction: column;
+}
+.subCardArticleDescription{
+    background-color: rgb(238, 239, 151);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.titlePage{
+    margin-top: 100px;
+    color: #fff;
+}

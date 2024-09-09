@@ -1,0 +1,60 @@
+<!-- Creare un blog Tech, utilizzando i nuovi concetti visti a lezione, con le seguenti caratteristiche: 
+creare una navbar con i link per la homepage e per le pagine degli articoli tecnologici
+nella homepage ci devono essere 3 card allineate al centro, ognuna corrispondente ad un articolo con immagine ed un link che riporti all’articolo completo
+nella pagina di ogni articolo ci deve essere: 1) un’immagine a sinistra e una lista delle caratteristiche a destra 2) una descrizione del prodotto -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="homePageNavbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li>
+                <a target="_blank" href="https://technblog.it/">Tech'n'BLOG</a>
+            </li>
+            <li>
+                <a target="_blank" href="">Articolo 2</a>
+            </li>
+            <li>
+                <a target="_blank" href="">Articolo 3</a>        
+            </li>
+        </ul>
+    </nav>
+    <div class="card">
+        <div class="sottoCard">
+            <img src="./tech1.avif" alt="" class="imgCard">
+            <h4>
+                AJAZZ AK692: TASTIERA GAMING BEST BUY!
+            </h4>
+            <p>
+                Nel vasto panorama delle tastiere meccaniche, la AJAZZ AK692 si distingue per le sue caratteristiche peculiari e l’ottimo rapporto qualità/prezzo. Con un design compatto e <a target="_blank" href="./articolo1.html">..>></a>
+            </p>
+            
+        </div>
+        <div class="sottoCard">
+            <img src="./tech2.jpg" alt="" class="imgCard">
+            <h4>
+                Creality LD-002H: ottima stampante 3D entry level!
+            </h4>
+            <p>
+                Siete alla ricerca della vostra prima stampante 3D e non sapete quale scegliere? Probabilmente questa Creality LD-002H fa proprio al caso vostro! Anche io ero <a target="_blank" href="./articolo2.html">..>></a>
+            </p>
+        </div>
+        <div class="sottoCard">
+            <img src="./tech3.jpg" alt="" class="imgCard">
+            <h4>
+                ChatGPT – la nuova frontiera dell’Intelligenza Artificiale
+            </h4>
+            <p>
+                Praticamente non si parla d’altro negli ultimi tempi, quindi non potevo non scrivere un articolo sul fenomeno ChatGPT, il modello di intelligenza artificiale che, primo <a target="_blank" href="./articolo3.html">..>></a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
